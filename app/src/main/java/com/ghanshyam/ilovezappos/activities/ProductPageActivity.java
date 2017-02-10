@@ -81,6 +81,8 @@ public class ProductPageActivity extends AppCompatActivity implements ListingsVi
         i.setData(Uri.parse(v.getTag()+""));
         startActivity(i);
     }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);

@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.widget.RelativeLayout;
 import android.widget.SearchView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ghanshyam.ilovezappos.R;
 import com.ghanshyam.ilovezappos.global.GlobalData;
@@ -108,11 +109,14 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_shoes) {
             // Handle the camera action
+            Toast.makeText(this, "Shoes", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_Clothing) {
+            Toast.makeText(this, "Clothes", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_bags) {
-
+            Toast.makeText(this, "Bags", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_all_brands) {
+            Toast.makeText(this, "All Brands", Toast.LENGTH_SHORT).show();
 
         }
 

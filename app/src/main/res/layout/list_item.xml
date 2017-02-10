@@ -55,6 +55,7 @@
         android:layout_margin="8dp"
         card_view:contentPadding="16dp"
         card_view:cardElevation="2dp"
+
         card_view:cardCornerRadius="5dp">
 
 
@@ -76,9 +77,9 @@
                 android:foregroundGravity="center"
                 android:id="@+id/img_product"
                 app:imageUrl="@{result.thumbnailImageUrl}"
-                android:layout_alignParentLeft="true"
+
                 android:layout_alignParentTop="true"
-                android:layout_marginRight="20dp"/>
+               />
 
 
             <TextView
