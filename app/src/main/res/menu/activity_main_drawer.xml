@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/departments"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shoes"
+            android:icon="@drawable/ic_shoes_grey"
+            android:title="Shoes" />
+        <item
+            android:id="@+id/nav_Clothing"
+            android:icon="@drawable/ic_clothing_grey"
+            android:title="Clothing" />
+        <item
+            android:id="@+id/nav_bags"
+            android:icon="@drawable/ic_bags_grey"
+            android:title="Bags" />
+        <item
+            android:id="@+id/nav_all_brands"
+            android:icon="@drawable/ic_brands_grey"
+            android:title="All Brands" />
+    </group>
+
+    <group
+        android:id="@+id/my_accounts"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/user"
+            android:title="My Account" />
+
+    </group>
+
+
+
+
+</menu>
